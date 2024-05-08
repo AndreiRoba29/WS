@@ -4,101 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festivaluri și Artiști</title>
-    <script>
-        // Aici puteți adăuga și scriptul JavaScript
-    </script>
 </head>
 <body>
     <h1>Festivaluri și Artiști</h1>
-    
-    <!-- Tabel pentru festivaluri -->
-    <h2>Tabel Festivaluri</h2>
-    <table id="tabelFestivaluri">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Festival</th>
-                <th>Date</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Electric</td>
-                <td>xxxx</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Untold</td>
-                <td>yyyy</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Artmania</td>
-                <td>zzzz</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <!-- Tabel pentru artiști -->
-    <h2>Tabel Artiști</h2>
-    <table id="tabelArtisti">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Festival ID</th>
-                <th>Performer</th>
-                <th>Performer URL</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>1</td> <!-- ID-ul festivalului Electric -->
-                <td>Madonna</td>
-                <td>...</td> <!-- URL-ul pentru Madonna -->
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>1</td> <!-- ID-ul festivalului Electric -->
-                <td>Metallica</td>
-                <td>...</td> <!-- URL-ul pentru Metallica -->
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>2</td> <!-- ID-ul festivalului Untold -->
-                <td>U2</td>
-                <td>...</td> <!-- URL-ul pentru U2 -->
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>2</td> <!-- ID-ul festivalului Untold -->
-                <td>Coldplay</td>
-                <td>...</td> <!-- URL-ul pentru Coldplay -->
-            </tr>
-        </tbody>
-    </table>
-
-    <!-- JSON-LD cu datele festivalurilor și artiștilor -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Festival",
-            "name": "Electric",
-            "startDate": "xxxx",
-            "performer": [
-                {
-                    "@type": "MusicGroup",
-                    "name": "Madonna",
-                    "url": "..." <!-- URL-ul pentru Madonna -->
-                },
-                {
-                    "@type": "MusicGroup",
-                    "name": "Metallica",
-                    "url": "..." <!-- URL-ul pentru Metallica -->
-                }
-            ]
-        }
-    </script>
+    <ul>
+        <li>
+            <h2>Festivalul de Muzică Electrică</h2>
+            <p>Locație: București, România</p>
+            <p>Date: 15-17 iulie 2024</p>
+            <h3>Artiști:</h3>
+            <ul>
+                <li>David Guetta</li>
+                <li>Calvin Harris</li>
+                <li>Armin van Buuren</li>
+            </ul>
+        </li>
+        <li>
+            <h2>Festivalul de Jazz</h2>
+            <p>Locație: New Orleans, SUA</p>
+            <p>Date: 20-25 octombrie 2024</p>
+            <h3>Artiști:</h3>
+            <ul>
+                <li>John Coltrane Quartet</li>
+                <li>Ella Fitzgerald</li>
+                <li>Miles Davis</li>
+            </ul>
+        </li>
+        <li>
+            <h2>Festivalul de Rock</h2>
+            <p>Locație: Londra, Marea Britanie</p>
+            <p>Date: 5-7 august 2024</p>
+            <h3>Artiști:</h3>
+            <ul>
+                <li>Foo Fighters</li>
+                <li>Muse</li>
+                <li>Red Hot Chili Peppers</li>
+            </ul>
+        </li>
+        <li>
+            <h2>Festivalul de Muzică Clasică</h2>
+            <p>Locație: Viena, Austria</p>
+            <p>Date: 10-15 septembrie 2024</p>
+            <h3>Artiști:</h3>
+            <ul>
+                <li>Vienna Philharmonic Orchestra</li>
+                <li>Lang Lang</li>
+                <li>Yo-Yo Ma</li>
+            </ul>
+        </li>
+    </ul>
 </body>
 </html>
